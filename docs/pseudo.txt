@@ -1,0 +1,12 @@
+//
+// Boot up as a GateManager
+//
+1. Register with a gateMaster.
+2. Request workload, indicate how heavily you can run the application
+3. Fetch a workload.load from the "Distributor" source along with desired loading
+4. "Deploy" the load to correct number of GateKeepers marking down which ones are doing what.
+5. Notify GateFront that X GateKeeper is serving load, repeat for desired load.
+6. Ping application's /verify-up as per the specs, examine response code
+
+
+GateFront will then edit the Nginx load balancing file and reload Nginx

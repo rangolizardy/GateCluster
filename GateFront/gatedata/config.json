@@ -1,0 +1,6 @@
+{
+	"port":56000,
+	"hooks":[
+		"gatekeeper-monitor"
+	]
+}
