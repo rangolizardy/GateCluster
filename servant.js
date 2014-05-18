@@ -16,5 +16,6 @@ var request = {action:"list_registered"};
 requester.send(JSON.stringify(request));
 
 //Here we are past the registration phase
-var request = {action:"get_workload",currentload:current_running};
+//maxload is number of GateKeeper processes working at once.
+var request = {action:"get_workload",currentload:current_running,maxload:10};
 requester.send(JSON.stringify(request));

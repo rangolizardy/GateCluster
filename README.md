@@ -1,5 +1,5 @@
 
-Methodlogy 
+Methodology 
 ===============
 There is a GateMaster and several GateHandlers
 
